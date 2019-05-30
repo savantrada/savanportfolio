@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.f3694da6.chunk.css",
-    "main.js": "/static/js/main.dff7d93f.chunk.js",
-    "main.js.map": "/static/js/main.dff7d93f.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.cab437bf.chunk.js": "/static/js/2.cab437bf.chunk.js",
-    "static/js/2.cab437bf.chunk.js.map": "/static/js/2.cab437bf.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.2fb13033a4d1cf6189936a42fb3e6285.js": "/precache-manifest.2fb13033a4d1cf6189936a42fb3e6285.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.f3694da6.chunk.css.map": "/static/css/main.f3694da6.chunk.css.map"
+    "main.css": "/savanportfolio/static/css/main.f3694da6.chunk.css",
+    "main.js": "/savanportfolio/static/js/main.fc69841a.chunk.js",
+    "main.js.map": "/savanportfolio/static/js/main.fc69841a.chunk.js.map",
+    "runtime~main.js": "/savanportfolio/static/js/runtime~main.cbe512dd.js",
+    "runtime~main.js.map": "/savanportfolio/static/js/runtime~main.cbe512dd.js.map",
+    "static/js/2.cab437bf.chunk.js": "/savanportfolio/static/js/2.cab437bf.chunk.js",
+    "static/js/2.cab437bf.chunk.js.map": "/savanportfolio/static/js/2.cab437bf.chunk.js.map",
+    "index.html": "/savanportfolio/index.html",
+    "precache-manifest.8a78f0bf9c55393040625fb706a7046a.js": "/savanportfolio/precache-manifest.8a78f0bf9c55393040625fb706a7046a.js",
+    "service-worker.js": "/savanportfolio/service-worker.js",
+    "static/css/main.f3694da6.chunk.css.map": "/savanportfolio/static/css/main.f3694da6.chunk.css.map"
   }
 }
