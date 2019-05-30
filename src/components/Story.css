@@ -1,0 +1,36 @@
+.story.hero {
+    background:#431c5d;
+    color: #fff;
+}
+
+.story .hero-head p{
+    text-align: center;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    padding: 1em;
+}
+
+.story .hero-body h1{
+    font-family: "Alegreya", serif;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.story span.tag.is-primary {
+    background:#457B9D;
+    font-family: "Kalam", cursive;
+    font-size: 1rem;
+}
+
+.story .timeline-content p.heading{
+    font-family: "Quicksand", serif;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.story .timeline-content p{
+    font-family: "Quicksand", serif;
+    font-size: 1rem;
+}

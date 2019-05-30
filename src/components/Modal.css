@@ -1,0 +1,14 @@
+.modal-content h1{
+    font-family: "Alegreya", serif;
+    font-size: 2em;
+}
+
+.modal-content p{
+    font-family: "Quicksand", serif;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.modal-content .box {
+    padding: 2em;
+}

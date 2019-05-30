@@ -1,0 +1,90 @@
+.skills.hero {
+    background: #DDC9BC ;
+}
+
+.skills .hero-body h1{
+    font-family: "Alegreya", serif;
+    color: #fff;
+    font-size: 2em;
+}
+
+.skills td{
+    font-family: "Quicksand", serif;
+    font-size: 1.1em;
+    text-align: left;
+    padding:0.5em;
+}
+
+
+.skills .box{
+    background: #fff;
+}
+
+.skills .hero-body .tech{
+    text-align:center;    
+}
+
+.skills .hero-body button.clickers{
+    margin:auto;
+    cursor: pointer;
+    color: #7B00B9;
+    font-size: 1.5em;
+    border:0;
+    padding:0;    
+}
+
+.skills .hero-body .tech img{
+    width: 64px;
+    height: 64px;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+}
+
+.skills .hero-body .tech img:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+
+.skills .hero-body h2{
+    font-family: "Kalam", cursive;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.skills .hero-body .tech p{
+    font-family: "Quicksand", serif;
+    text-align: center;
+    font-size: 0.6em;
+}
+
+.skills .hero-body .organizations .columns{
+    margin:auto;
+}
+
+.skills .hero-body .organizations .box{
+    min-height: 150px;
+}
+
+.skills .hero-body .organizations figure{
+    margin:auto;
+    text-align: center;
+}
+
+.skills .hero-body .organizations figure img{
+    max-width: 150px;
+    max-height: 80px;
+    width:auto;
+    height:auto;
+}
+
+.skills .hero-body .organizations p{
+    text-align: center;
+}
+
+.skills .hero-head p{
+    text-align: center;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    color: #fff;
+    padding: 1em;
+}

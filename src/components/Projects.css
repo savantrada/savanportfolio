@@ -1,0 +1,71 @@
+.projects.hero {
+    background:#ED7458 ;
+    color: #fff;
+}
+
+.projects .hero-body h1{
+    font-family: "Alegreya", serif;
+    color: #fff;
+    font-size: 2em;
+}
+
+.projects .more{
+    text-align: center;
+    font-family: "Kalam", cursive;
+}
+
+.projects .container .box{
+    text-align: center;
+}
+
+.projects .container .box.first:hover,
+.projects .container .box.second:hover{
+    transition: all 200ms ease-in;
+    transform: scale(1.1) rotate(2deg);
+}
+
+.projects .container .box.third:hover,
+.projects .container .box.fourth:hover{
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+}
+
+.projects .container .box.fifth:hover,
+.projects .container .box.sixth:hover{
+    transition: all 200ms ease-in;
+    transform: scale(1.1) rotate(-2deg);
+}
+
+.projects .container .box h2{
+    font-family: "Kalam", cursive;
+    font-size: 1.3em;
+}
+
+.projects .container .box p{
+    font-family: "Quicksand", serif;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.projects .container .box .git a{
+    font-size: 2rem;
+    color: #000;
+}
+
+.projects .container .box .other a{
+    font-size: 2rem;
+}
+
+.projects .container .box .detail span{
+    color: #001B40;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.npm{
+    color: #ff0000;
+}
+
+.web{
+    color: #457B9D;
+}

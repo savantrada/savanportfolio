@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="A full stack developer porfolio web page, containing projects, skills set and story."/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/libs/css/bulma-timeline.min.css" type="text/css">
+ 
+    <title>Savan Trada</title>
+  </head>
+  <body>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script>
+    if('serviceworker' in navigator){
+      window.addEventListener('load', function(){
+        navigator.serviceWorker.register("../src/serviceWorker.js");
+      });
+    }
+    </script>
+  </body>
+</html>

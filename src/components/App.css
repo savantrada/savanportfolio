@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya:900');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Kalam:400,700');
+
+.social-media{
+    position: fixed;
+    top: 32%;
+    left: 10px;
+}
+
+.social-media p a{
+    color: #fff;
+    font-size: 2em;
+}
+
+.social-media:hover .stickyicons{
+        filter:blur(3px);
+        opacity:.5;
+        transform: scale(.98);
+        box-shadow:none;
+}
+
+.hover-content{
+    display: none;
+}
+
+.social-media:hover .stickyicons:hover{
+    filter:blur(0px);
+    opacity:1;
+    box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+    transition: all ease-in;
+    transform: translateY(3px) translateX(16px) translatez(20px) scale(1.3);
+    animation: linear;
+}
+
+.social-media:hover .stickyicons:hover .hover-content{
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 10px; 
+    text-align: center;
+    margin: 10px;     
+}
