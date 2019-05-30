@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["documents/Savankumar_Trada_Resume.pdf","9595d88d7f1944b25c87243f74a5b59f"],["index.html","58ff3f09f83ca657b5f1afd1f8c06143"],["libs/css/bulma-timeline.min.css","d012bbadec37aeacba8bb70afe4e610d"],["manifest.json","9aa172251e864f422ddda1bd7a5f2793"],["static/css/main.0d138f89.chunk.css","a3461feb619d6c7b5060f4caac62caaa"],["static/js/2.cab437bf.chunk.js","5be10035c968e0b29c2780cdcad2a5fa"],["static/js/main.fc69841a.chunk.js","8ff3496d86552294ba03163404116c13"],["static/js/runtime~main.cbe512dd.js","b0085901ec75826b9e5342c86d222914"]];
+var precacheConfig = [["documents/Savankumar_Trada_Resume.pdf","9595d88d7f1944b25c87243f74a5b59f"],["index.html","2ff3d3eed4fbcc2415f0a3a585788b7a"],["libs/css/bulma-timeline.min.css","d012bbadec37aeacba8bb70afe4e610d"],["manifest.json","9aa172251e864f422ddda1bd7a5f2793"],["static/css/main.0d138f89.chunk.css","a3461feb619d6c7b5060f4caac62caaa"],["static/js/2.cab437bf.chunk.js","5be10035c968e0b29c2780cdcad2a5fa"],["static/js/main.325009a9.chunk.js","8f3f360e6c971ec2f80aa3445fc66995"],["static/js/runtime~main.cbe512dd.js","b0085901ec75826b9e5342c86d222914"]];
 var cacheName = 'sw-precache-v3-sw-precache-' + (self.registration ? self.registration.scope : '');
 
 
