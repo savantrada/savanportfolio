@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/savanportfolio/static/css/main.0d138f89.chunk.css",
-    "main.js": "/savanportfolio/static/js/main.d44bd1f6.chunk.js",
-    "main.js.map": "/savanportfolio/static/js/main.d44bd1f6.chunk.js.map",
+    "main.js": "/savanportfolio/static/js/main.6d2a0d68.chunk.js",
+    "main.js.map": "/savanportfolio/static/js/main.6d2a0d68.chunk.js.map",
     "runtime~main.js": "/savanportfolio/static/js/runtime~main.cbe512dd.js",
     "runtime~main.js.map": "/savanportfolio/static/js/runtime~main.cbe512dd.js.map",
     "static/js/2.cab437bf.chunk.js": "/savanportfolio/static/js/2.cab437bf.chunk.js",
     "static/js/2.cab437bf.chunk.js.map": "/savanportfolio/static/js/2.cab437bf.chunk.js.map",
     "index.html": "/savanportfolio/index.html",
-    "precache-manifest.d62fdb73ac0841491a813ad415f40858.js": "/savanportfolio/precache-manifest.d62fdb73ac0841491a813ad415f40858.js",
+    "precache-manifest.0748feb6c7b5a4067cd07bf664cce578.js": "/savanportfolio/precache-manifest.0748feb6c7b5a4067cd07bf664cce578.js",
     "service-worker.js": "/savanportfolio/service-worker.js",
     "static/css/main.0d138f89.chunk.css.map": "/savanportfolio/static/css/main.0d138f89.chunk.css.map"
   }
