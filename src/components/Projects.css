@@ -1,6 +1,15 @@
 .projects.hero {
     background:#ED7458 ;
     color: #fff;
+    
+}
+
+.projects .hero-head p{
+    text-align: center;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    color: #fff;
+    padding: 1em;
 }
 
 .projects .hero-body h1{
@@ -12,11 +21,14 @@
 .projects .more{
     text-align: center;
     font-family: "Kalam", cursive;
+
 }
 
 .projects .container .box{
     text-align: center;
+    box-shadow: 10px 10px 42px 0 rgba(0,0,0,0.75);
 }
+
 
 .projects .container .box.first:hover,
 .projects .container .box.second:hover{
@@ -34,6 +46,7 @@
 .projects .container .box.sixth:hover{
     transition: all 200ms ease-in;
     transform: scale(1.1) rotate(-2deg);
+
 }
 
 .projects .container .box h2{

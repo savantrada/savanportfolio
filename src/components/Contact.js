@@ -5,27 +5,17 @@ export default function Contact() {
   
   return (
     <section className="hero is-small contact" id="contact">
+     
       <div className="hero-body">
         <div className="container">
-        <div className="bird-container bird-container--one">
-		        <div className="bird bird--one"></div>
-	      </div>
-        <div className="bird-container bird-container--two">
-          <div className="bird bird--two"></div>
-        </div>
-        <div className="bird-container bird-container--three">
-          <div className="bird bird--three"></div>
-        </div>
-        <div className="bird-container bird-container--four">
-          <div className="bird bird--four"></div>
-        </div>
-          <h1 className="has-text-danger">Say Hi!	</h1>
+        
+          <h1 className="has-text-black">Say Hi!	</h1>
           <div className="columns is-centered">
             <div className="column is-half has-text-black">
               <p>
                 Thank you for visiting. I hope you liked my portfolio. If you
                 have any suggestions or want to say "Hello", Send me your message at {" "}
-                <a href="mailto:me@savantrada.com" className="has-text-danger">me@savantrada.com</a>.{" "}
+                <a href="mailto:savan@savantrada.com" className="has-text-danger">savan@savantrada.com</a>.{" "}
               </p>
 </div></div>
 

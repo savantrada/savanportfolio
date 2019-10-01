@@ -15,6 +15,7 @@ export default function App() {
       <Story />
       <Contact />
       <div className="social-media is-hidden-mobile">
+      
         <p className="stickyicons">
           <a
             href="https://github.com/savantrada"
@@ -41,19 +42,7 @@ export default function App() {
 
         <p className="stickyicons">
           <a
-            href="https://www.instagram.com/savan_trada/"
-            aria-label="Link to Linkedin profile"
-          >
-            <i className="fab fa-instagram has-text-danger" />
-            <span className="hover-content has-text-danger">
-                Instagram
-            </span>
-          </a>
-        </p>
-
-        <p className="stickyicons">
-          <a
-            href="mailto:me@savantrada.com"
+            href="mailto:savan@savantrada.com"
             aria-label="Link to Linkedin profile"
           >
             <i className="fa fa-envelope has-text-info" />

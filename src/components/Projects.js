@@ -15,6 +15,11 @@ export default function Projects() {
   };
   return (
     <section className="hero projects is-fullheight" id="projects">
+     <div className="hero-head">
+        <p className="has-text-black">
+          Legend(for the project caption): M(major project), S(Side project)
+        </p>
+      </div>
       <div className="hero-body">
         <div className="container">
           <h1 className="has-text-black">Projects</h1>
@@ -22,7 +27,7 @@ export default function Projects() {
             <div className="tile is-parent is-vertical">
               <div className="tile is-child">
                 <div className="box first">
-                  <h2>Image-Search</h2>
+                  <h2>Image-Search(S)</h2>
                   <p>
                       Search images from unsplash, write any words to serach images 
                   </p>
@@ -60,7 +65,7 @@ export default function Projects() {
               </div>
               <div className="tile is-child">
                 <div className="box second">
-                  <h2>securebox-dashboard</h2>
+                  <h2>securebox-dashboard(M)</h2>
                   <p>
                     Dashboard for securebox toolkit. Displays graphs for
                     different params, shows audit, traces, anomalies and
@@ -94,7 +99,7 @@ export default function Projects() {
             <div className="tile is-parent is-vertical">
               <div className="tile is-child">
                 <div className="box third">
-                  <h2>SICT</h2>
+                  <h2>satellite Image Cropping System(M)</h2>
                   <p>
                    Developed web application to redirect satellite images to google maps.
                   </p>
@@ -115,15 +120,15 @@ export default function Projects() {
               </div>
               <div className="tile is-child">
                 <div className="box fourth">
-                  <h2>template</h2>
+                  <h2>portfolio(S)</h2>
                   <p>
-                    A simple template portfolio build in reactjs and seamantic-ui
+                    My personal portfolio built with react and bulma
                   </p>
                   <div className="project-foot">
                     <div className="columns is-flex-mobile">
                       <div className="column git">
                         <a
-                          href="https://github.com/savantrada/templateportfolio"
+                          href="https://github.com/savantrada/savanportfolio"
                           aria-label="template github link"
                         >
                           <i className="fab fa-github" />
@@ -131,7 +136,7 @@ export default function Projects() {
                       </div>
                       <div className="column other">
                         <a
-                          href="https://savantrada.github.io/templateportfolio/"
+                          href="https://www.savantrada.com"
                           aria-label="template website"
                           className="web"
                         >
@@ -146,7 +151,7 @@ export default function Projects() {
             <div className="tile is-parent is-vertical">
               <div className="tile is-child">
                 <div className="box fifth">
-                  <h2>TalentMap</h2>
+                  <h2>TalentMap(M)</h2>
                   <p>
                     Connect students, companies and colleges 
                     to fulfill each other's requirements.
@@ -177,19 +182,27 @@ export default function Projects() {
               </div>
               <div className="tile is-child">
                 <div className="box sixth">
-                  <h2>serach videos</h2>
+                  <h2>The venue(S)</h2>
                   <p>
-                    A simple search application/experiment to search videos 
-                    from youtube using axios api calls.
+                    A simple musical event registration appliction made with react
                   </p>
                   <div className="project-foot">
                     <div className="columns is-flex-mobile">
                       <div className="column git">
                         <a
-                          href="https://github.com/savantrada/Search-videos"
+                          href="https://github.com/savantrada/venue"
                           aria-label="vids github link"
                         >
                           <i className="fab fa-github" />
+                        </a>
+                      </div>
+                      <div className="column other">
+                        <a
+                          href="https://savantrada.github.io/venue/"
+                          aria-label="template website"
+                          className="web"
+                        >
+                          <i className="fas fa-link" />
                         </a>
                       </div>
                     </div>
@@ -217,6 +230,7 @@ export default function Projects() {
         isActive={isModalActive}
         type={type}
       />
+    
     </section>
   );
 }

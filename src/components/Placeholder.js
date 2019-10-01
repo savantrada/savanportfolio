@@ -4,7 +4,7 @@ export default function Placeholder() {
   return (
     <img
       style={{ maxHeight: "100px" }}
-      src="/images/placeholder.svg"
+      src="./images/placeholder.svg"
       alt="placeholder"
     />
   );

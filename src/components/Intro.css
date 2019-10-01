@@ -1,7 +1,7 @@
 .intro.hero {
-    background: #FFFEE6 ;
-    color: #001B40;
-    
+    /* background: #F7DFD4; */
+    background: linear-gradient(45deg, rgba(255,175,189,.7), rgba(100,216,243,.7), rgba(234,236,198,.7), rgba(245,146,176,.7), rgba(52,219,216,.7)) 0 0 / 1000% no-repeat, url(https://raw.githubusercontent.com/savantrada/profileimage/master/savan.JPG?token=AHRSGZULNP3K3BJACK2HZIS5N3WTQ) 0 0 / cover no-repeat;
+    color: #001B40;   
 }
 
 .intro .container{
@@ -24,6 +24,20 @@
     color: #DDDDDD;
     font-family: 'Alegreya', serif;
     font-size: 4em;
+    animation: titleAnimation 3s infinite 0s ease-out;
+}
+
+@keyframes titleAnimation{
+    0%{
+        transform: rotate(0) scale(1) skewX(-1deg) skewY(3deg);
+        }
+    50%{
+        transform: rotate(0) scale(1) skewX(10deg) skewY(-6deg);
+        color: #123854;
+        }
+    100%{
+        transform: rotate(0) scale(1) skewX(-1deg) skewY(3deg);
+        }
 }
 
 .intro .subtitle{
@@ -190,4 +204,24 @@
         opacity: 0;
         transform: rotate(45deg) translate(20px,20px);
     }
+}
+
+.anim{
+    animation: leftanim 1s forwards 0s ease-in-out;
+}
+
+@keyframes leftanim{
+    0%{
+        transform: rotate(0) scale(0);
+        }
+    100%{
+        transform: rotate(0) scale(1);
+        transform-origin: 1% 1%;
+        }
+}
+
+#introclouds path {
+    fill: #ED7458;
+    stroke: #ED7458;
+    transform: skewY(18deg);
 }

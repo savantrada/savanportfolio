@@ -4,8 +4,12 @@ import Carousel from "./Carousel";
 import { languages, databases, frameworks, others } from "./SkillsHelper";
 
 export default function Skills() {
+
   return (
     <section className="hero skills is-fullheight" id="skills">
+        <svg id="bigTriangleColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
+    <path d="M0 0 L50 50 L100 0 Z" />
+</svg>
       <div className="hero-head">
         <p className="has-text-black">
           Legend(for the image caption): G(Good), C(Comfortable), F(Familiar)
@@ -56,13 +60,19 @@ export default function Skills() {
                       <td>
                         <i className="fas fa-chart-line" />
                       </td>
-                      <td>Staitic and dynamic analysis of malwares and forensics analysis</td>
+                      <td>Data structure and Algorithm</td>
                     </tr>
                     <tr>
                       <td>
                         <i className="fas fa-user-shield" />
                       </td>
-                      <td>OWASPS and a11y complience</td>
+                      <td>Web Application Security</td>
+                    </tr>
+                    <tr>
+                      <td>
+                      <i className="fas fa-rocket"></i>
+                      </td>
+                      <td>Progressive web apps</td>
                     </tr>
                   </tbody>
                 </table>
@@ -86,6 +96,8 @@ export default function Skills() {
           </div>
         </div>
       </div>
+
+
     </section>
   );
 }

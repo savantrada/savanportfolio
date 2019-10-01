@@ -2,7 +2,7 @@
   "name": "savantrada",
   "version": "0.1.0",
   "private": true,
-  "hompage": "https://savantrada.github.io/savanportfolio",
+  "homepage": "https://savantrada.github.io/savanportfolio",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",

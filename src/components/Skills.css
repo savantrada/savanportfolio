@@ -88,3 +88,9 @@
     color: #fff;
     padding: 1em;
 }
+
+#bigTriangleColor path {
+    fill: #ED7458;
+    stroke: #ED7458;
+    stroke-width: 2;
+  }

@@ -3,25 +3,39 @@
   <head>
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="theme-color" content="#000000" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="A full stack developer porfolio web page, containing projects, skills set and story."/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
     <link rel="stylesheet" href="%PUBLIC_URL%/libs/css/bulma-timeline.min.css" type="text/css">
  
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="%PUBLIC_URL%/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="%PUBLIC_URL%/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#ffc40d">
+<meta name="theme-color" content="#ffffff">
+
     <title>Savan Trada</title>
   </head>
   <body>
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="%PUBLIC_URL%/libs/js/sketch.min.js"></script>
+    <script src="%PUBLIC_URL%/libs/js/particlssketch.js"></script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <script>
-    if('serviceworker' in navigator){
-      window.addEventListener('load', function(){
-        navigator.serviceWorker.register("/service-worker.js");
-      });
-    }
+
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./service-worker.js').then(function(registration) {
+      
+      }).catch(function(err) {
+      console.log('ServiceWorker registration failed: ');
+    });
+  }else {
+    console.log('No service-worker on this browser');
+  }
     </script>
   </body>
 </html>
